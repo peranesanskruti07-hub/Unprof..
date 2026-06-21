@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #b0f4e7, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(1, 21, 18, 0.2);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #333;
+}
+
+.card:hover{
+   
+    transform: scale(1.05);
+    transition: 0.3s;
+    
+}
+h4 {
+    color: gray;
+    margin: 8px 0;
+}
+
+.location {
+    margin: 10px 0;
+}
+
+.skills {
+    margin: 15px 0;
+}
+
+.skills span {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.skills span:hover{
+    
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.bio {
+    margin: 15px 0;
+    color: #555;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+}
